@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>wayforpay</id>
+    <version>1.0</version>
+    <priority>2019</priority>
+    <position>1</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>DevelopStores</name>
+            <email>sales@developstores.com</email>
+            <url>https://developstores.com</url>
+            <phone>+380 50 362 8612</phone>
+        </author>
+    </authors>
+    <supplier>WayForPay</supplier>
+    <supplier_link>https://wayforpay.com</supplier_link>
+    <compatibility>
+        <core_version>
+            <min>4.6.1</min>
+        </core_version>
+        <conflicts>ds__wayforpay</conflicts>
+        <core_edition>ULTIMATE,MULTIVENDOR</core_edition>
+    </compatibility>
+    <functions>
+        <item for="install">fn_wayforpay_install</item>
+        <item for="uninstall">fn_wayforpay_uninstall</item>
+    </functions>
+</addon>

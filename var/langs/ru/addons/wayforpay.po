@@ -1,0 +1,582 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::wayforpay"
+msgid "WayForPay payment add-on"
+msgstr "Платежный модуль WayForPay"
+
+msgctxt "Addons::description::wayforpay"
+msgid "WayForPay payment add-on for CS-Cart"
+msgstr "Платежный модуль WayForPay (wayforpay.com) для CS-Cart"
+
+msgctxt "Languages::wayforpay"
+msgid "wayforpay"
+msgstr "Платежный модуль WayForPay"
+
+msgctxt "Languages::wayforpay.merchantaccount"
+msgid "wayforpay.merchantAccount"
+msgstr "Идентификатор продавца"
+
+msgctxt "Languages::ttc_wayforpay.merchantaccount"
+msgid "ttc_wayforpay.merchantAccount"
+msgstr "MERCHANT LOGIN в панели управления WayForPay на странице Настройки магазина -> Реквизиты мерчанта"
+
+msgctxt "Languages::wayforpay.merchantsecretkey"
+msgid "wayforpay.merchantSecretKey"
+msgstr "Секретный ключ продавца"
+
+msgctxt "Languages::ttc_wayforpay.merchantsecretkey"
+msgid "ttc_wayforpay.merchantsecretkey"
+msgstr "MERCHANT SECRET KEY в панели управления WayForPay на странице Настройки магазина -> Реквизиты мерчанта"
+
+msgctxt "Languages::wayforpay.test_live_mode"
+msgid "wayforpay.test_live_mode"
+msgstr "Режим работы"
+
+msgctxt "Languages::ttc_wayforpay.test_live_mode"
+msgid "ttc_wayforpay.test_live_mode"
+msgstr "Выберите в каком режиме принимать платежи. В тестовом режиме оплаченные суммы будут возвращены на карту покупателя через 10 минут. Не используйте тестовый режим на рабочем магазине."
+
+msgctxt "Languages::wayforpay.test"
+msgid "wayforpay.test"
+msgstr "Тестовый"
+
+msgctxt "Languages::wayforpay.live"
+msgid "wayforpay.live"
+msgstr "Рабочий"
+
+msgctxt "Languages::wayforpay.currency"
+msgid "wayforpay.currency"
+msgstr "Валюта UAH"
+
+msgctxt "Languages::ttc_wayforpay.currency"
+msgid "ttc_wayforpay.currency"
+msgstr "Выберите валюту магазина соответствующей украинской гривни - UAH"
+
+msgctxt "Languages::wayforpay.order_status.created"
+msgid "wayforpay.order_status.Created"
+msgstr "Новый платеж"
+
+msgctxt "Languages::wayforpay.order_status.created"
+msgid "ttc_wayforpay.order_status.Created"
+msgstr "Заказ был создан, но клиент еще не указал платежные реквизиты."
+
+msgctxt "Languages::wayforpay.order_status.inprocessing"
+msgid "wayforpay.order_status.InProcessing"
+msgstr "В обработке"
+
+msgctxt "Languages::ttc_wayforpay.order_status.inprocessing"
+msgid "ttc_wayforpay.order_status.InProcessing"
+msgstr "Заказ все еще находится в процессе обработки платежным шлюзом."
+
+msgctxt "Languages::wayforpay.order_status.approved"
+msgid "wayforpay.order_status.Approved"
+msgstr "Успешный платеж"
+
+msgctxt "Languages::ttc_wayforpay.order_status.approved"
+msgid "ttc_wayforpay.order_status.Approved"
+msgstr "Заказ успешно оплачен клиентом, средства списаны с карты."
+
+msgctxt "Languages::wayforpay.order_status.pending"
+msgid "wayforpay.order_status.Pending"
+msgstr "На проверке Antifraud"
+
+msgctxt "Languages::ttc_wayforpay.order_status.pending"
+msgid "ttc_wayforpay.order_status.Pending"
+msgstr "Платеж находится на проверке Anti Fraud"
+
+msgctxt "Languages::wayforpay.order_status.expired"
+msgid "wayforpay.order_status.Expired"
+msgstr "Истек срок оплаты"
+
+msgctxt "Languages::ttc_wayforpay.order_status.expired"
+msgid "ttc_wayforpay.order_status.Expired"
+msgstr "Истек срок оплаты заказа (счета)."
+
+msgctxt "Languages::wayforpay.order_status.refundedvoided"
+msgid "wayforpay.order_status.RefundedVoided"
+msgstr "Возврат"
+
+msgctxt "Languages::ttc_wayforpay.order_status.refundedvoided"
+msgid "ttc_wayforpay.order_status.RefundedVoided"
+msgstr "В случае операции возврата / разблокировки денег."
+
+msgctxt "Languages::wayforpay.order_status.declined"
+msgid "wayforpay.order_status.Declined"
+msgstr "Отклонено"
+
+msgctxt "Languages::ttc_wayforpay.order_status.declined"
+msgid "ttc_wayforpay.order_status.Declined"
+msgstr "В случае невозможности провести операцию."
+
+msgctxt "Languages::wayforpay.order_status.refundinprocessing"
+msgid "wayforpay.order_status.RefundInProcessing"
+msgstr "Возврат в обработке"
+
+msgctxt "Languages::ttc_wayforpay.order_status.refundinprocessing"
+msgid "ttc_wayforpay.order_status.RefundInProcessing"
+msgstr "В случае если недостаточно средств на балансе магазина для возврата покупателю."
+
+msgctxt "Languages::paymentsystem"
+msgid "wayforpay.paymentsystem"
+msgstr "Платежная система"
+
+msgctxt "Languages::transactionstatus"
+msgid "wayforpay.transactionstatus"
+msgstr "Статус транзакции"
+
+msgctxt "Languages::orderreference"
+msgid "wayforpay.orderreference"
+msgstr "Номер заказа"
+
+msgctxt "Languages::createddate"
+msgid "wayforpay.createddate"
+msgstr "Дата создания запроса"
+
+msgctxt "Languages::processingdate"
+msgid "wayforpay.processingdate"
+msgstr "Дата процессирования транзакции"
+
+msgctxt "Languages::cardpan"
+msgid "wayforpay.cardpan"
+msgstr "Card Pan"
+
+msgctxt "Languages::cardtype"
+msgid "wayforpay.cardtype"
+msgstr "Card Type"
+
+msgctxt "Languages::issuerbankcountry"
+msgid "wayforpay.issuerbankcountry"
+msgstr "Страна Банка карты"
+
+msgctxt "Languages::issuerbankname"
+msgid "wayforpay.issuerbankname"
+msgstr "Название Банка карты"
+
+msgctxt "Languages::fee"
+msgid "wayforpay.fee"
+msgstr "Комиссия"
+
+msgctxt "Languages::reasoncode"
+msgid "wayforpay.reasoncode"
+msgstr "Код статуса платежа"
+
+msgctxt "Languages::wayforpay.transaction_details"
+msgid "wayforpay.transaction_details"
+msgstr "Подробнее о транзакции"
+
+msgctxt "Languages::authcode"
+msgid "wayforpay.authcode"
+msgstr "Код авторизации"
+
+msgctxt "Languages::wayforpay.settings.connection"
+msgid "wayforpay.settings.connection"
+msgstr "Параметры подключения"
+
+msgctxt "Languages::wayforpay.settings.transaction"
+msgid "wayforpay.settings.transaction"
+msgstr "Настройки платежа"
+
+msgctxt "Languages::wayforpay.settings.order_statuses"
+msgid "wayforpay.settings.order_statuses"
+msgstr "Настройки статусов заказа"
+
+msgctxt "Languages::wayforpay.ordertimeout"
+msgid "wayforpay.orderTimeout"
+msgstr "Время до повтороной оплаты"
+
+msgctxt "Languages::ttc_wayforpay.ordertimeout"
+msgid "ttc_wayforpay.orderTimeout"
+msgstr "Устанавливает интервал, в течение которого будет доступна возможность повторно оплатить заказ. В секундах."
+
+msgctxt "Languages::wayforpay.orderlifetime"
+msgid "wayforpay.orderLifetime"
+msgstr "Время актуальности заказа"
+
+msgctxt "Languages::ttc_wayforpay.orderlifetime"
+msgid "ttc_wayforpay.orderLifetime"
+msgstr "Устанавливает интервал, в течение которого заказ может быть оплачен. В секундах."
+
+msgctxt "Languages::wayforpay.payment_failed"
+msgid "wayforpay.payment_failed"
+msgstr "Не удалось осуществить оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1100"
+msgid "wayforpay.response_code_reason.1100"
+msgstr "Операция выполнена без ошибок."
+
+msgctxt "Languages::wayforpay.response_code_message.1100"
+msgid "wayforpay.response_code_message.1100"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1101"
+msgid "wayforpay.response_code_reason.1101"
+msgstr "Отказ Банка эмитента проводить операцию."
+
+msgctxt "Languages::wayforpay.response_code_message.1101"
+msgid "wayforpay.response_code_message.1101"
+msgstr "Свяжитесь с Вашим банком или воспользуйтесь другой картой."
+
+msgctxt "Languages::wayforpay.response_code_reason.1102"
+msgid "wayforpay.response_code_reason.1102"
+msgstr "Неверный CVV код."
+
+msgctxt "Languages::wayforpay.response_code_message.1102"
+msgid "wayforpay.response_code_message.1102"
+msgstr "Пожалуйста, убедитесь в правильности ввода CVV кода и попробуйте еще раз."
+
+msgctxt "Languages::wayforpay.response_code_reason.1103"
+msgid "wayforpay.response_code_reason.1103"
+msgstr "Карточка просроченная или неверно указан срок действия."
+
+msgctxt "Languages::wayforpay.response_code_message.1103"
+msgid "wayforpay.response_code_message.1103"
+msgstr "Свяжитесь с вашим банком или воспользуйтесь другой картой. Пожалуйста, убедитесь в правильности ввода параметров и попробуйте еще раз."
+
+msgctxt "Languages::wayforpay.response_code_reason.1104"
+msgid "wayforpay.response_code_reason.1104"
+msgstr "Недостаточно средств на карте."
+
+msgctxt "Languages::wayforpay.response_code_message.1104"
+msgid "wayforpay.response_code_message.1104"
+msgstr "Недостаточно средств на карте."
+
+msgctxt "Languages::wayforpay.response_code_reason.1105"
+msgid "wayforpay.response_code_reason.1105"
+msgstr "Введен неправильный номер карты, или карта в недопустимом состоянии."
+
+msgctxt "Languages::wayforpay.response_code_message.1105"
+msgid "wayforpay.response_code_message.1105"
+msgstr "Свяжитесь с вашим банком или воспользуйтесь другой картой. Пожалуйста, убедитесь в правильности ввода параметров и попробуйте еще раз."
+
+msgctxt "Languages::wayforpay.response_code_reason.1106"
+msgid "wayforpay.response_code_reason.1106"
+msgstr "Превышен лимит операций по карте - возможно карта не открыта для оплаты в интернет."
+
+msgctxt "Languages::wayforpay.response_code_message.1106"
+msgid "wayforpay.response_code_message.1106"
+msgstr "Свяжитесь с вашим банком или воспользуйтесь другой картой."
+
+msgctxt "Languages::wayforpay.response_code_reason.1108"
+msgid "wayforpay.response_code_reason.1108"
+msgstr "Невозможно выполнить 3DS транзакцию, или неверный код подтверждения 3DS."
+
+msgctxt "Languages::wayforpay.response_code_message.1108"
+msgid "wayforpay.response_code_message.1108"
+msgstr "Свяжитесь с вашим банком или воспользуйтесь другой картой."
+
+msgctxt "Languages::wayforpay.response_code_reason.1109"
+msgid "wayforpay.response_code_reason.1109"
+msgstr "Ошибка на стороне мерчанта - неверно сформирована транзакция."
+
+msgctxt "Languages::wayforpay.response_code_message.1109"
+msgid "wayforpay.response_code_message.1109"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1110"
+msgid "wayforpay.response_code_reason.1110"
+msgstr "Ошибка на стороне мерчанта - неверная валюта."
+
+msgctxt "Languages::wayforpay.response_code_message.1110"
+msgid "wayforpay.response_code_message.1110"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1112"
+msgid "wayforpay.response_code_reason.1112"
+msgstr "Дублирующий orderid."
+
+msgctxt "Languages::wayforpay.response_code_message.1112"
+msgid "wayforpay.response_code_message.1112"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1113"
+msgid "wayforpay.response_code_reason.1113"
+msgstr "Неправильная подпись мерчанта."
+
+msgctxt "Languages::wayforpay.response_code_message.1113"
+msgid "wayforpay.response_code_message.1113"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1114"
+msgid "wayforpay.response_code_reason.1114"
+msgstr "Фродовая транзакция согласно антифрод фильтров."
+
+msgctxt "Languages::wayforpay.response_code_message.1114"
+msgid "wayforpay.response_code_message.1114"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1115"
+msgid "wayforpay.response_code_reason.1115"
+msgstr "Не переданными один или несколько обязательных параметров."
+
+msgctxt "Languages::wayforpay.response_code_message.1115"
+msgid "wayforpay.response_code_message.1115"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1116"
+msgid "wayforpay.response_code_reason.1116"
+msgstr "Попытка списания с карты клиента по токена неуспешный - используется неверное значение."
+
+msgctxt "Languages::wayforpay.response_code_message.1116"
+msgid "wayforpay.response_code_message.1116"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1117"
+msgid "wayforpay.response_code_reason.1117"
+msgstr "Мерчанту не разрешено использовать этот API."
+
+msgctxt "Languages::wayforpay.response_code_message.1117"
+msgid "wayforpay.response_code_message.1117"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1118"
+msgid "wayforpay.response_code_reason.1118"
+msgstr "Превышен лимит Магазина или транзакции запрещены для Магазина."
+
+msgctxt "Languages::wayforpay.response_code_message.1118"
+msgid "wayforpay.response_code_message.1118"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1120"
+msgid "wayforpay.response_code_reason.1120"
+msgstr "3-D Secure авторизация недоступна."
+
+msgctxt "Languages::wayforpay.response_code_message.1120"
+msgid "wayforpay.response_code_message.1120"
+msgstr "Свяжитесь с вашим банком или воспользуйтесь другой картой."
+
+msgctxt "Languages::wayforpay.response_code_reason.1121"
+msgid "wayforpay.response_code_reason.1121"
+msgstr "Аккаунт не найден."
+
+msgctxt "Languages::wayforpay.response_code_message.1121"
+msgid "wayforpay.response_code_message.1121"
+msgstr "Свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1122"
+msgid "wayforpay.response_code_reason.1122"
+msgstr "Отказ шлюза в выполнении операции."
+
+msgctxt "Languages::wayforpay.response_code_message.1122"
+msgid "wayforpay.response_code_message.1122"
+msgstr "Пожалуйста, повторите попытку позже. Если сообщение выводится снова свяжитесь с нами, мы постараемся Вам помочь."
+
+msgctxt "Languages::wayforpay.response_code_reason.1123"
+msgid "wayforpay.response_code_reason.1123"
+msgstr "Возврат не может быть выполнен."
+
+msgctxt "Languages::wayforpay.response_code_message.1123"
+msgid "wayforpay.response_code_message.1123"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1124"
+msgid "wayforpay.response_code_reason.1124"
+msgstr "Сессия пользователя истекла."
+
+msgctxt "Languages::wayforpay.response_code_message.1124"
+msgid "wayforpay.response_code_message.1124"
+msgstr "Время на проведение платежа истекло, повторите попытку оплаты."
+
+msgctxt "Languages::wayforpay.response_code_reason.1125"
+msgid "wayforpay.response_code_reason.1125"
+msgstr "Транзакция отменена пользователем."
+
+msgctxt "Languages::wayforpay.response_code_message.1125"
+msgid "wayforpay.response_code_message.1125"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1126"
+msgid "wayforpay.response_code_reason.1126"
+msgstr "Попытка выполнения недопустимой операции для текущего состояния платежа."
+
+msgctxt "Languages::wayforpay.response_code_message.1126"
+msgid "wayforpay.response_code_message.1126"
+msgstr "Попытка выполнения недопустимой операции для текущего состояния платежа."
+
+msgctxt "Languages::wayforpay.response_code_reason.1127"
+msgid "wayforpay.response_code_reason.1127"
+msgstr "Транзакция не найдена."
+
+msgctxt "Languages::wayforpay.response_code_message.1127"
+msgid "wayforpay.response_code_message.1127"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1128"
+msgid "wayforpay.response_code_reason.1128"
+msgstr "Превышено допустимое количество попыток сделать возврат (Refund)."
+
+msgctxt "Languages::wayforpay.response_code_message.1128"
+msgid "wayforpay.response_code_message.1128"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1129"
+msgid "wayforpay.response_code_reason.1129"
+msgstr "Ошибка сценария"
+
+msgctxt "Languages::wayforpay.response_code_message.1129"
+msgid "wayforpay.response_code_message.1129"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1130"
+msgid "wayforpay.response_code_reason.1130"
+msgstr "Неправильная сумма."
+
+msgctxt "Languages::wayforpay.response_code_message.1130"
+msgid "wayforpay.response_code_message.1130"
+msgstr "Проверьте правильность суммы в запросе."
+
+msgctxt "Languages::wayforpay.response_code_reason.1131"
+msgid "wayforpay.response_code_reason.1131"
+msgstr "Заказ обрабатывается. Заказ все еще находится в процессе обработки платежным шлюзом."
+
+msgctxt "Languages::wayforpay.response_code_message.1131"
+msgid "wayforpay.response_code_message.1131"
+msgstr "Ваш платеж обрабатывается. Как только транзакция будет обработана, Вы получите сообщение о состоянии платежа."
+
+msgctxt "Languages::wayforpay.response_code_reason.1132"
+msgid "wayforpay.response_code_reason.1132"
+msgstr "Клиент решил отложить оплату, ему на почту отправлена ссылка для завершения платежа."
+
+msgctxt "Languages::wayforpay.response_code_message.1132"
+msgid "wayforpay.response_code_message.1132"
+msgstr "Вами создан заказ [order_id] на сайте [site]. Произвести оплату Вы можете в течение [hours] часов [minutes] минут."
+
+msgctxt "Languages::wayforpay.response_code_reason.1133"
+msgid "wayforpay.response_code_reason.1133"
+msgstr "Неверная комиссия."
+
+msgctxt "Languages::wayforpay.response_code_message.1133"
+msgid "wayforpay.response_code_message.1133"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1134"
+msgid "wayforpay.response_code_reason.1134"
+msgstr "Транзакция на проверке Antifraud."
+
+msgctxt "Languages::wayforpay.response_code_message.1134"
+msgid "wayforpay.response_code_message.1134"
+msgstr "Транзакция находится на ручной проверке сотрудника фин. мониторинга."
+
+msgctxt "Languages::wayforpay.response_code_reason.1135"
+msgid "wayforpay.response_code_reason.1135"
+msgstr "Превышен лимит по карте."
+
+msgctxt "Languages::wayforpay.response_code_message.1135"
+msgid "wayforpay.response_code_message.1135"
+msgstr "Пожалуйста, повторите попытку позже или свяжитесь с торговцем в адрес которого производите оплату."
+
+msgctxt "Languages::wayforpay.response_code_reason.1136"
+msgid "wayforpay.response_code_reason.1136"
+msgstr "Недостаточно средств на балансе мерчанта."
+
+msgctxt "Languages::wayforpay.response_code_message.1136"
+msgid "wayforpay.response_code_message.1136"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1138"
+msgid "wayforpay.response_code_reason.1138"
+msgstr "Запрос на возврат принят и будет проведен как только на балансе магазина будет достаточно денег для его проведения."
+
+msgctxt "Languages::wayforpay.response_code_message.1138"
+msgid "wayforpay.response_code_message.1138"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1139"
+msgid "wayforpay.response_code_reason.1139"
+msgstr "Отказ в зачислении средств на карту получателя."
+
+msgctxt "Languages::wayforpay.response_code_message.1139"
+msgid "wayforpay.response_code_message.1139"
+msgstr "Отказ в зачислении средств на карту получателя."
+
+msgctxt "Languages::wayforpay.response_code_reason.1140"
+msgid "wayforpay.response_code_reason.1140"
+msgstr "Превышен лимит при зачислении средств на карту получателя."
+
+msgctxt "Languages::wayforpay.response_code_message.1140"
+msgid "wayforpay.response_code_message.1140"
+msgstr "Превышен лимит при зачислении средств на карту получателя."
+
+msgctxt "Languages::wayforpay.response_code_reason.1141"
+msgid "wayforpay.response_code_reason.1141"
+msgstr "Частичная отмена заблокированных средств невозможна."
+
+msgctxt "Languages::wayforpay.response_code_message.1141"
+msgid "wayforpay.response_code_message.1141"
+msgstr "Частичная отмена заблокированных средств невозможна."
+
+msgctxt "Languages::wayforpay.response_code_reason.1142"
+msgid "wayforpay.response_code_reason.1142"
+msgstr "Отказано в кредите."
+
+msgctxt "Languages::wayforpay.response_code_message.1142"
+msgid "wayforpay.response_code_message.1142"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1143"
+msgid "wayforpay.response_code_reason.1143"
+msgstr "Неверный номер телефона."
+
+msgctxt "Languages::wayforpay.response_code_message.1143"
+msgid "wayforpay.response_code_message.1143"
+msgstr "Неверный номер телефона."
+
+msgctxt "Languages::wayforpay.response_code_reason.1144"
+msgid "wayforpay.response_code_reason.1144"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_message.1144"
+msgid "wayforpay.response_code_message.1144"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1145"
+msgid "wayforpay.response_code_reason.1145"
+msgstr "Ожидание решения о предоставлении кредита."
+
+msgctxt "Languages::wayforpay.response_code_message.1145"
+msgid "wayforpay.response_code_message.1145"
+msgstr "Свяжитесь с вашим банком или воспользуйтесь другой картой."
+
+msgctxt "Languages::wayforpay.response_code_reason.1146"
+msgid "wayforpay.response_code_reason.1146"
+msgstr "Карта заблокирована банком."
+
+msgctxt "Languages::wayforpay.response_code_message.1146"
+msgid "wayforpay.response_code_message.1146"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1147"
+msgid "wayforpay.response_code_reason.1147"
+msgstr "Клиент не найден."
+
+msgctxt "Languages::wayforpay.response_code_message.1147"
+msgid "wayforpay.response_code_message.1147"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1148"
+msgid "wayforpay.response_code_reason.1148"
+msgstr "Клиент найден, но не привязан к текущему Мерчанту."
+
+msgctxt "Languages::wayforpay.response_code_message.1148"
+msgid "wayforpay.response_code_message.1148"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.1149"
+msgid "wayforpay.response_code_reason.1149"
+msgstr "Клиент временно заблокирован."
+
+msgctxt "Languages::wayforpay.response_code_message.1149"
+msgid "wayforpay.response_code_message.1149"
+msgstr ""
+
+msgctxt "Languages::wayforpay.response_code_reason.5100"
+msgid "wayforpay.response_code_reason.5100"
+msgstr "Ожидание 3-D secure верификации."
+
+msgctxt "Languages::wayforpay.response_code_message.5100"
+msgid "wayforpay.response_code_message.5100"
+msgstr ""
+
