@@ -126,7 +126,7 @@ if (defined('PAYMENT_NOTIFICATION'))
         'orderLifetime' => !empty($processor_params['orderLifetime']) ? (int)$processor_params['orderLifetime'] : 3600,
         'orderTimeout' => !empty($processor_params['orderTimeout']) ? (int)$processor_params['orderTimeout'] : 3600,
         'transactionType' => 'PURCHASE',
-        'merchantTransactionType' => 'SALE',
+        'merchantTransactionType' => 'AUTO',
         'clientFirstName' => !empty($order_info['b_firstname']) ? $order_info['b_firstname'] : $order_info['s_firstname'],
         'clientLastName' => !empty($order_info['b_lastname']) ? $order_info['b_lastname'] : $order_info['s_lastname'],
         'clientEmail' => $order_info['email'],
