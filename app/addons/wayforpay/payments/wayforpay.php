@@ -107,6 +107,14 @@ if (defined('PAYMENT_NOTIFICATION'))
     }
     $WayForPay = new WayForPayLight($processor_params['merchantAccount'], $processor_params['merchantSecretKey']);
     $wayforpay_products = fn_wayforpay_products_normalize($order_info['products'], $processor_params['currency']);
+    
+    $return_url = fn_url("payment_notification.return&payment=wayforpay", 'C', 'current');
+    $serviceUrl = fn_url("payment_notification.service&payment=wayforpay", 'C', 'current');
+
+    /** @var \Tygh\Web\Session $session */
+    $session = Tygh::$app['session'];
+    $return_url = fn_link_attach($return_url, $session->getName() . '=' . $session->getID());
+    $serviceUrl = fn_link_attach($cancel_url, $session->getName() . '=' . $session->getID());
     $params = array
     (
         'merchantAccount' => $processor_params['merchantAccount'],
@@ -120,13 +128,13 @@ if (defined('PAYMENT_NOTIFICATION'))
         'productCount' => $wayforpay_products['productCount'],
         'productPrice' => $wayforpay_products['productPrice'],
         'language' => CART_LANGUAGE,
-        'returnUrl' => fn_url("payment_notification.return&payment=wayforpay", 'C', 'current'),
-        'serviceUrl' => fn_url("payment_notification.service&payment=wayforpay", 'C', 'current'),
+        'returnUrl' => $return_url,
+        'serviceUrl' => $serviceUrl,
         'orderNo' => $order_info['order_id'],
         'orderLifetime' => !empty($processor_params['orderLifetime']) ? (int)$processor_params['orderLifetime'] : 3600,
         'orderTimeout' => !empty($processor_params['orderTimeout']) ? (int)$processor_params['orderTimeout'] : 3600,
         'transactionType' => 'PURCHASE',
-        'merchantTransactionType' => 'SALE',
+        'merchantTransactionType' => 'AUTO',
         'clientFirstName' => !empty($order_info['b_firstname']) ? $order_info['b_firstname'] : $order_info['s_firstname'],
         'clientLastName' => !empty($order_info['b_lastname']) ? $order_info['b_lastname'] : $order_info['s_lastname'],
         'clientEmail' => $order_info['email'],
