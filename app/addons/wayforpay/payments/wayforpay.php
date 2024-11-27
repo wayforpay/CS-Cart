@@ -114,7 +114,7 @@ if (defined('PAYMENT_NOTIFICATION'))
     /** @var \Tygh\Web\Session $session */
     $session = Tygh::$app['session'];
     $return_url = fn_link_attach($return_url, $session->getName() . '=' . $session->getID());
-    $serviceUrl = fn_link_attach($cancel_url, $session->getName() . '=' . $session->getID());
+    $serviceUrl = fn_link_attach($serviceUrl, $session->getName() . '=' . $session->getID());
     $params = array
     (
         'merchantAccount' => $processor_params['merchantAccount'],
